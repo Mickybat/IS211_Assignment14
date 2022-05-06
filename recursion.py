@@ -33,7 +33,7 @@ def compareTo(s1, s2):
     if len(str(s1)) < len(str(s2)):
         return -1
     else:
-        compare(len(str(s1)) == len(str(s2)), len(str(s1)))
+        compareTo(len(str(s1)) == len(str(s2)), len(str(s1)))
         return 0
 
 
